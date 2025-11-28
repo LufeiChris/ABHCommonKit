@@ -12,8 +12,13 @@ public class ABHHeartRateViewController: UIViewController {
 
     public override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         print("88888888")
+        self.view.backgroundColor  = .lightGray
+        let btn = UILabel(frame: CGRectMake(0, 0, self.view.frame.width, 50))
+        btn.text = "test"
+        btn.textColor = .red
+        self.view.addSubview(btn)
         // Do any additional setup after loading the view.
     }
     
